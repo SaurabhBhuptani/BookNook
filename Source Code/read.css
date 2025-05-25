@@ -1,0 +1,84 @@
+.pdf-container {
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#pdf-viewer {
+    width: 100%;
+    height: 100%;
+}
+
+.pdf-controls {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pdf-controls button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pdf-controls button:hover {
+    background-color: #777;
+}
+
+.page-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#page-num {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.error-message {
+    text-align: center;
+    padding: 30px;
+    color: #e74c3c;
+    font-size: 1.2rem;
+}
+
+.reader-header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.back-btn:hover {
+    background-color: #2980b9;
+}
